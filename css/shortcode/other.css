@@ -1,0 +1,383 @@
+/*--Start of  skills css--*/
+#skills{
+	background: url(../../images/bg/progess-bar3.jpg) 0% 0 no-repeat fixed;
+	color: white;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	margin-top: 60px;
+}
+.skill-area {
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .6);
+}
+.skill-title h2 {
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding-bottom: 70px;
+	position:relative;
+}
+.skill-title h2::after, .skill-title h2::before {
+	content: " ";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top:55px;
+	max-width: 184px;
+	height: 1px;
+	margin: 0 auto;
+	background-color: #ff305b;
+}
+.skill-title h2::after {
+	max-width: 90px;
+	background-color: #181818;
+}
+.skill-title h2::before{
+	background-color: #fff;
+}
+.main-title h3 {
+	color: white;
+	text-transform: uppercase;
+	font-size: 21px;
+	font-weight: 600;
+	padding: 42px 16px;
+	position: relative;
+}
+.main-title h3::after {
+	content: "";
+	position: absolute;
+	width: 5px;
+	height: 18px;
+	left: 0;
+	top: 35px;
+	background: red;
+}
+.main-title h3::before {
+	content: "";
+	position: absolute;
+	width: 5px;
+	height: 20px;
+	left: 0;
+	top: 50px;
+	bottom: 0;
+	background: white;
+}
+.progressBar {
+	position: relative;
+	width: 100%;
+	height: 7px;
+	background: black;
+	margin-bottom: 45px;
+}
+.title1{
+	position: absolute;
+	float: left;
+	font-weight: bold;
+	color: white;
+	margin-top:-24px;
+}
+.progress_value{
+	position: relative;
+	float: right;
+	font-weight: bold;
+	color: white;
+	margin-top:-24px;
+}
+.progress {
+	height: 7px;
+	position: absolute;
+	border-radius: inherit;
+}
+.tml{
+	background: #FF305B;
+}
+.ss{
+	background: #FF305B;
+}
+.ds{
+	background: #FF305B;
+}
+.dhp{
+	background: #FF305B;
+}
+.ajax{
+	background: #FF305B;
+}
+@media (max-width: 720px) {
+	.main{
+		width: 90%;
+	}
+}
+/*--End of  skills css--*/
+
+
+/*--Start of Client's css--*/
+.testominal {
+    height: 520px;
+	background-color:#EDEDEF;
+}
+
+
+.testominal-title h1 {
+	color: black;
+	padding: 80px 0px;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 30px;
+	position:relative;
+	text-align:center;
+}
+.testominal-title h1::after, .testominal-title h1::before {
+	content: " ";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 130px;
+	max-width: 208px;
+	height: 1px;
+	margin: 0 auto;
+	background-color: #ff305b;
+}
+.testominal-title h1::after {
+	max-width: 90px;
+	background-color: #181818;
+}
+.testominal-title h1::before{
+	background-color: orange;
+}
+.testominal-item {
+    background:black none repeat scroll 0 0;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 40px;
+    position: relative;
+}
+
+.testominal-item:after {
+    border-color: #ff305b rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    -o-border-image: none;
+    border-image: none;
+    border-style: solid;
+    border-width: 200px;
+    content: "";
+    height: 72px;
+    left: -199px;
+    position: absolute;
+    top: 0;
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    width: 77px;
+    z-index: 1;
+}
+.testominal-img {
+    border-radius: 50%;
+    float: left;
+    margin: 12px auto;
+    overflow: hidden;
+    position: relative;
+    width: 110px;
+    z-index: 999;
+}
+.item {
+    display: flex;
+    justify-content: center;
+}
+.slider_activator.owl-carousel .owl-nav.disabled {
+   display:none;
+}
+.testominal-mar h5 {
+    font-size: 16px;
+	color: white;
+	margin-top:20px;
+}
+.testominal-mar h3 {
+	color: white;
+	margin-top:15px;
+}
+.testominal-mar {
+    margin-left: 130px;
+}
+
+/*--End of Client's css--*/
+
+/*--Start of Blog css--*/
+.blog-title {
+	text-align: center;
+}
+.blog-title h2 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 47px 0px 0px 0px;
+}
+.blog-title p {
+	padding-bottom: 30px;
+}
+.blog-img img {
+	width: 100%;
+}
+.blog-details {
+	padding: 8px 10px 35px 10px;
+	border-bottom: 3px solid black;
+	background: cornsilk;
+}
+.admin {
+	float: left;
+}
+.admin-date {
+	float: right;
+}
+.blog-details h2 {
+	font-size: 23px;
+	padding: 25px 0px 0px 0px;
+	font-weight: 600;
+}
+.blog-details p {
+	text-align: justify;
+}
+.blog-social {
+	float: left;
+	padding-top: 5px;
+	text-transform: uppercase;
+}
+.read-more {
+	float: left;
+}
+.coment {
+	float: right;
+	padding-left:140px;
+	color: red;
+	display: inline-block;
+}
+.coment a {
+    color: red;
+}
+.read-more p {
+	color: red;
+}
+.blog-item {
+	border: 1px solid #e5e5e5;
+}
+
+/*--End of Blog css--*/
+
+/*--Start of  Patnar css--*/
+
+/*--End of  Patnar css--*/
+
+/*--Start of  Contact css--*/
+#contact{
+	background: url(../../images/slider/slider-1.jpg) 0% 0 no-repeat fixed;
+	color: white;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	margin-top: 60px;
+	text-align: center;
+}
+.contact-area {
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .6);
+	padding-bottom: 80px;
+}
+.contact-title h2 {
+	text-align: center;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 60px 0px;
+	color: white;
+}
+.contact-info-title h2 {
+	font-weight: 600;
+	font-size: 25px;
+	text-transform: uppercase;
+	color: white;
+}
+.contact-info-title p {
+	font-size: 14px;
+	padding-bottom: 20px;
+	color: white;
+}
+.contact-control {
+	height: 50px;
+	color: white;
+	margin: 0 0 40px 0px;
+	border: 0;
+	border border-radius: 0;
+	box-shadow: none;
+	background: none;
+	border: 1px solid;
+}
+.contact-comment {
+	height: 179px;
+	border-radius: 0;
+	background:none;
+	box-shadow: none;
+	border: 1px solid #A8A8A8;
+	margin: 0 auto;
+	overflow: hidden;
+	border: 1px solid;
+}
+.btn {
+	background: none;
+	color: #fff;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	height: 48px;
+	line-height: 48px;
+	padding: 0px 33px;
+	position: relative;
+	text-transform: uppercase;
+	z-index: 2;
+	transition: all 0.3s ease 0s;
+	margin-top: 20px;
+	border: 1px solid white;
+	margin-left: -41px;
+}
+.btn:hover {
+	background: black;
+	color: #fff;
+}
+.contact-info {
+	background: gainsboro;
+	padding: 22px 0px 0px 0px;
+	display: inline-block;
+	width: 100%;
+	border: 1px solid;
+}
+.contact-part {
+	padding: 10px 0px;
+}
+.contact-part i {
+	font-size: 28px;
+	color: white;
+	background: black;
+	height: 48px;
+	width: 47px;
+	padding-top: 7px;
+	z-index: 1;
+	border: 2px solid white;
+}
+.contact-part h6 {
+	padding-top: 5px;
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.contact-part p {
+	font-size: 16px;
+	font-weight: 500;
+}
+/*--End of  Contact css--*/

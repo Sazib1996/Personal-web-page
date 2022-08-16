@@ -1,0 +1,56 @@
+#service {
+	height: 1024px;
+	width: 100%;
+}
+.service-title h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding: 85px 0px 60px 0px;
+}
+h2.service-h2::after, h2.service-h2::before {
+	content: " ";
+	position: absolute;
+	left: 0;
+	right: 0;
+	max-width:245px;
+	height: 1px;
+	margin: 45px auto;
+	background-color: #ff305b;
+}
+h2.service-h2::after {
+	max-width:145px;
+	background-color: #181818;
+}
+h2.service-h2::before{
+	background-color: #ff305b;
+}
+.service-item {
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+}
+.sazib {
+    border: 1px solid bisque;
+    padding: 45px 0px;
+}
+.service-icon {
+	background: red;
+	height: 70px;
+	width: 70px;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.service-icon i {
+	color: white;
+	font-size: 35px;
+	padding-top: 18px;
+}
+.service-details h4 {
+	font-weight: 600;
+	margin: 20px 0px;
+	text-transform: uppercase;
+	font-size: 20px;
+}

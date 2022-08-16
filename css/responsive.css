@@ -1,0 +1,195 @@
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1169px) {
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 1024px) {
+	.about-details h3 {
+    padding: 6px 0px 8px 15px;
+	}
+	.about-details h3::before {
+	top:10px;
+	height:20px;
+	}
+	.about-details h3::after {
+	top:2px;
+	height:15px;
+	}
+	.per-icon {
+    padding: 5px 0px;
+	}
+	.about-resume {
+		margin:10px 0px;
+	}
+	.timeline--item .content {
+    padding: 10px 10px;
+	}
+	.blog-details h2{
+		font-size:20px;
+	}
+	.blog-details {
+    padding: 8px 10px 30px 10px;
+	}
+	.blog-social {
+    padding-top: 0px;
+	}
+	.coment {
+    padding-left: 74px;
+	}
+	.btn {
+		margin-top:12px;
+		margin-left:215px;
+	}
+	.service-item p {
+    text-align: justify;
+	}
+	.service-item {
+    padding: 30px 15px 20px 15px;
+    }
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+	.container {width:350px}
+	.navbar-toggle {
+		border: 1px solid #080808;
+	}
+	.navbar-toggle .icon-bar {
+		background: #080000;
+	}
+	.about-details p {
+		text-align: justify;
+	}
+	.per-icon {
+		padding: 5px 0px;
+    }
+	.per-icon i{
+		font-size:15px;
+	}
+	.per-icon span{
+		font-size:15px;
+	}
+	.per-icon h6{
+		font-size:15px;
+	}
+	.per-icon p{
+		font-size:13px;
+		margin-top: -27px;
+	}
+	.about-social-icon {
+		text-align: center;
+	}
+	.about-resume{
+		margin:15px 55px;
+	}
+	.about-resume p{
+		padding-left:16px;
+	}
+	#service{
+		height:100%;
+	}
+	.service-item{
+		margin-bottom:20px;
+	}
+	.timeline--items > li {
+		margin-left:-16px;
+	}
+	.timeline--items > li:nth-child(2n) {
+		padding-left: 25px;
+	}
+	.timeline--items > li:nth-child(2n)::before {
+		left: -18px;
+		right: 0px; 
+	}
+	.timeline--items > li:nth-child(2n) .timeline--item .icon {;
+		right: 75px;
+	}
+	.timeline--items > li:nth-child(2n) .timeline--item::before {
+		right: 0px;
+		left:-11px;
+	}
+	.timeline--item .table tbody tr td {
+		min-width: 165px;
+	}
+	.timeline--item::before{
+		left: -10px;
+		width: 12px;
+	}
+	.timeline--items > li{
+		padding-left:40px;
+	}
+	.timeline--item .icon{
+		left:-60px;
+	}
+	.timeline--item .content {
+		padding: 4px 12px;
+	}
+	.timeline--items::after{
+		left:1.5%;
+	}
+	.testominal-mar h5 {
+		line-height: 28px;
+		font-size: 18px;
+	}
+	.blog-details h2{
+		font-size:22px;
+	}
+	.coment {
+		padding-left:100px;
+	}
+	.blog-item {
+		border:none;
+		padding-bottom: 15px;
+	}
+	.btn{
+		margin-left:0px;
+		margin-bottom:30px;
+	}
+	
+	
+}
+@media (min-width: 320px) and (max-width: 568px) {
+	.container {width:300px}
+	.about-resume {
+		margin: 15px 30px;
+	}
+	.per-icon h6 {
+		padding-left: 122px;
+	}
+	.per-icon p{
+		padding-left:145px;
+	}
+	.service-title h2{
+		font-size:30px;
+	}
+	.timeline--items::after {
+		left: 7.5%;
+	}
+	.timeline--items > li:nth-child(2n) .timeline--item .icon {
+		right: 50px;
+	}
+	.timeline--item .table tbody tr td {
+		min-width: 150px;
+	}
+	.content p {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.coment {
+		padding-left: 52px;
+	}
+	.blog-details h2 {
+		font-size: 19px;
+	}
+	
+}
+ 

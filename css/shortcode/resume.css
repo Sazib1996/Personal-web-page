@@ -1,0 +1,228 @@
+.pb--100 {
+	padding-bottom: 100px;
+}
+.section--title .h2 {
+	display: inline-block;
+	padding-bottom: 16px;
+	padding-top: 50px;
+}
+.section--title .h2, [data-overlay] {
+	position: relative;
+	z-index: 0;
+}
+.section--title .h2::after, .section--title .h2::before {
+	content: " ";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	max-width: 130px;
+	height: 1px;
+	margin: 0 auto;
+	background-color: #ff305b;
+}
+.section--title .h2::after {
+	max-width: 90px;
+	background-color: #181818;
+}
+.section--title .h2::before{
+	background-color: #ff305b;
+}
+.timeline--block .title .h5 {
+	position: relative;
+	margin-top: -6px;
+	padding-bottom: 17px;
+	color: #414141;
+	text-align: center;
+	text-transform: uppercase;
+	z-index: 0;
+}
+.timeline--block .title .h5::after, .timeline--block .title .h5::before {
+	content: " ";
+	position: absolute;
+	left: 15px;
+	right: 0;
+	bottom: 0;
+	width: 20px;
+	height: 5px;
+	margin: 0 auto;
+	background-color: #181818;
+}
+.timeline--block .title .h5::after {
+	left: 0;
+	right: 25px;
+	background-color: #ff305b;
+}
+.timeline--block .sub-title {
+	max-width: 600px;
+	margin: 26px auto 27px;
+	text-align: center;
+}
+.table:last-child, p:last-child, ul:last-child {
+	margin-bottom: 0;
+}
+.timeline--items {
+	margin-top: 52px;
+}
+.timeline--items > li:first-child {
+	padding-top: 0;
+}
+.timeline--items > li {
+	width: 50%;
+	margin-left: 50%;
+	padding-top: 20px;
+	padding-left: 80px;
+}
+.portfolio--item, .timeline--items > li {
+	position: relative;
+	z-index: 0;
+}
+.timeline--items > li::before {
+	content: " ";
+	position: absolute;
+	top: 0;
+	left: -2px;
+	bottom: 0;
+	border-left: 4px solid #e5e5e5;
+}
+.timeline--item {
+	position: relative;
+	background-color: #fff;
+	z-index: 0;
+}
+.timeline--item::before {
+	content: " ";
+	position: absolute;
+	top: 50%;
+	left: -80px;
+	width: 80px;
+	height: 1px;
+	background-color: #e5e5e5;
+}
+.timeline--items::after {
+	content: "";
+	position: absolute;
+	left: 48.5%;
+	border-bottom: 4px solid #e5e5e5;
+	width: 42px;
+}
+.timeline--item .icon {
+	content: "\f19d";
+	position: absolute;
+	top: 50%;
+	left: -100px;
+	width: 40px;
+	margin-top: -20px;
+	color: #181818;
+	font-family: "FontAwesome";
+	font-size: 16px;
+	line-height: 40px;
+	text-align: center;
+	background:white;
+}
+.table:last-child, p:last-child, ul:last-child {
+	margin-bottom: 0;
+}
+.timeline--item .table tbody tr td {
+	min-width: 190px;
+	padding: 0;
+	border: 1px solid #e5e5e5;
+}
+.timeline--item .date {
+	position: relative;
+	margin: -1px -1px 0;
+	padding: 7px 20px 5px;
+	z-index: 0;
+	background-color: #FF305B;
+}
+.timeline--item .bottom {
+	padding: 16px 20px 15px;
+}
+.timeline--item .name {
+	margin-top: 0;
+	text-transform: uppercase;
+}
+.timeline--item .institute {
+	margin-top: 6px;
+	margin-bottom: 1px;
+	color: #555;
+}
+.table:last-child, p:last-child, ul:last-child {
+	margin-bottom: 0;
+}
+.timeline--item .table tbody tr td {
+	min-width: 190px;
+	padding: 0;
+	border: 1px solid #e5e5e5;
+}
+.timeline--item .content {
+	padding: 22px 30px;
+}
+.timeline--item .content, .timeline--item .info {
+	display: table-cell;
+	vertical-align: top;
+}
+.table:last-child, p:last-child, ul:last-child {
+	margin-bottom: 0;
+}
+.timeline--block .title .h5 {
+	position: relative;
+	margin-top: -6px;
+	padding-bottom: 17px;
+	color: #414141;
+	text-align: center;
+	text-transform: uppercase;
+	z-index: 0;
+}
+.timeline--block .title .h5::after, .timeline--block .title .h5::before {
+	content: " ";
+	position: absolute;
+	left: 15px;
+	right: 0;
+	bottom: 0;
+	width: 20px;
+	height: 5px;
+	margin: 0 auto;
+	background-color: #181818;
+}
+.timeline--block .title .h5::after {
+	left: 0;
+	right: 25px;
+	background-color: #ff305b;
+}
+.timeline--block .sub-title {
+	max-width: 600px;
+	margin: 26px auto 27px;
+	text-align: center;
+}
+.table:last-child, p:last-child, ul:last-child {
+	margin-bottom: 0;
+}
+.table:last-child, p:last-child, ul:last-child {
+	margin-bottom: 0;
+}
+.content p {
+	text-align: justify;
+}
+.timeline--items > li:nth-child(2n) {
+	margin-left: 0;
+	padding-left: 0;
+	padding-right: 80px;
+}
+.timeline--items > li:nth-child(2n) .timeline--item .icon {
+	left: auto;
+	right: -100px;
+}
+.timeline--items > li:nth-child(2n) .timeline--item::before {
+	left: auto;
+	right: -80px;
+}
+.timeline--items > li:nth-child(2n)::before {
+	left: auto;
+	right: -2px;
+}
+.bg-default, .section--title .h2.text-white::before {
+	background-color: #fff;
+}
+
+

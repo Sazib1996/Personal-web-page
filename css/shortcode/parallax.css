@@ -1,0 +1,60 @@
+#parallax{
+	width: 100%;
+}
+#parallax{
+	background: url(../../images/bg/progess-bar2.jpg) 0% 0 no-repeat fixed;
+	color: white;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+}
+.counterup_area {
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .6);
+}
+.counterup_wrap {
+  position: relative;
+  z-index: 1;
+}
+.funfact {
+  color: #fff;
+  text-align: center;
+}
+.fact_icon i {
+  font-size: 45px;
+  padding-top: 5px;
+}
+.fact_count {
+  display: inline-block;
+  margin-top: 10px;
+  position: relative;
+}
+.fact_count::after {
+  background: #fff none repeat scroll 0 0;
+  content: "";
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  top: 100%;
+  transform: translateX(-50%);
+  width: 50px;
+}
+.fact_count span {
+  display: inline-block;
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 15px;
+  position: relative;
+}
+.fact_title h2 {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 25px;
+}
+/* End counter up area*/

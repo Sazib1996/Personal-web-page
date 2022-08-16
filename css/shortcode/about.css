@@ -1,0 +1,100 @@
+.about-img img {
+	width: 100%;
+}
+.about-title h2 {
+	text-align: center;
+	font-weight: 600;
+	padding: 60px 0px 50px 0px;
+}
+.about-details h3 {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 22px;
+	padding: 40px 0px 20px 15px;
+	position:relative;
+}
+.about-details h3::after {
+	content: "";
+	position: absolute;
+	width: 5px;
+	height: 20px;
+	left: 0;
+	top: 35px;
+	background: black;
+}
+.about-details h3::before {
+	content: "";
+	position: absolute;
+	width: 5px;
+	height: 20px;
+	left: 0;
+	top: 50px;
+	bottom: 0;
+	background: red;
+}
+.per-icon {
+	padding: 12px 0px;
+}
+.per-icon i {
+	font-size: 20px;
+	float: left;
+	padding-top: 1px;
+}
+.per-icon span {
+	font-size: 18px;
+	text-transform: uppercase;
+	float: left;
+	padding: 0px 15px;
+}
+.per-icon h6 {
+	padding-left: 155px;
+	font-size: 20px;
+	font-weight: 700;
+}
+.per-icon p {
+	padding-left: 180px;
+	margin-top: -32px;
+	font-size: 18px;
+	font-weight: 500;
+	color: #000;
+	text-align: left;
+	float: left;
+}
+.about-social-icon span {
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	text-align: center;
+	border: 1px solid #000;
+	display: inline-block;
+	margin: 13px 10px 20px 0px;
+}
+.about-social-icon span:hover {
+    background: #F44336;
+    border: 1px solid orange;
+}
+.about-social-icon i {
+	color: #000;
+}
+.about-social-icon span:hover i{
+	color:white;
+}
+.about-resume {
+	border: 1px solid #000;
+	height: 50px;
+	width: 204px;
+	margin: 15px 0px;
+	cursor: pointer;
+}
+.about-resume p {
+	text-align: center;
+	line-height: 48px;
+	font-size: 16px;
+	color: #000;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.about-resume p:hover {
+    background: black;
+    color: white;
+}

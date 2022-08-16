@@ -1,0 +1,52 @@
+.wrapper{
+	background:white;
+}
+.header.navbar{
+	padding: 30px 0;
+	position: absolute;
+	width: 100%;
+	transition: all 0.3s ease-in-out 0s;
+	z-index: 999;
+}
+.navbar-brand h2{
+	margin-top: -10px;
+    font-weight: 700;
+	color:#fff;
+}
+.header.navbar .nav.navbar-nav li:hover a, .header.navbar .nav.navbar-nav li.active a{
+	background: transparent;
+	color: orange;
+}
+.nav.navbar-nav li a{
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	color:#fff;
+	font-weight:bold;
+}
+.navbar-toggle {
+  border: 1px solid white;
+}
+.navbar-toggle .icon-bar {
+  background: white;
+}
+/*Sticky header*/
+.header.navbar-fixed-top.sticky{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 10px 0;
+	background: #fff;
+	z-index: 9999;
+	box-shadow: 0 0 10px #222;
+}
+.header.navbar-fixed-top.sticky ul li a{
+	color:#000;
+}
+.header.navbar-fixed-top.sticky .navbar-brand h2{
+	color:#000;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+	background:none;
+}

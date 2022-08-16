@@ -1,0 +1,125 @@
+.slider-bg-1{
+	background: url(../../images/slider/slider-02.jpg);
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.overlye-bg{
+	position:relative;
+}
+.overlye-bg:before {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.slider-item{
+	position:relative;
+	margin-top:20px;
+	text-align:center;
+}
+.slider-link {
+	display: flex;
+	justify-content: center;
+	color: white;
+	text-transform: uppercase;
+	position:relative;
+	padding:30px;
+}
+.slider-item h3 {
+	text-align: center;
+	color: white;
+	font-size: 28px;
+	padding: 50px 0px 10px 0px;
+	font-weight: 600;
+}
+.slider-item h1 {
+	color: white;
+	font-weight: 700;
+	text-transform: uppercase;
+	position:relative;
+}
+.slider-item span {
+	color: #FF305B;
+	padding-right: 10px;
+}
+.slider-item > h1::before {
+	content: " ";
+	position: absolute;
+	left: 0;
+	right: 0;
+	max-width: 190px;
+	height: 2px;
+	margin: 0 auto;
+	background-color: #FF305B;
+	top: 45px;
+}
+.slider-item > h1::after {
+	content: " ";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 45px;
+	max-width: 190px;
+	height: 2px;
+	margin: 0 auto;
+	background-color: #FF305B;
+}
+.slider-item h2 {
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	font-size: 45px;
+	height: 84px;
+}
+.professi {
+	color: #fff;
+	font-weight: 600;
+	padding: 14px 0px 2px 0px;
+}
+.slider-item p {
+	color: #fff;
+	font-size: 16px;
+	line-height: 30px;
+}
+.link-left {
+	border: 1px solid #FF305B;
+	width: 130px;
+	height: 42px;
+	text-align: center;
+	cursor:pointer;
+}
+.link-left p {
+	color: #FF305B;
+	padding-top: 7px;
+}
+.link-left:hover p {
+	background: #FF305B;
+	color: white;
+	height: 100%;
+	border: 1px solid black;
+}
+.link-right {
+	border: 1px solid;
+	margin-left: 29px;
+	width: 130px;
+	height: 42px;
+	text-align: center;
+	cursor:pointer;
+}
+.link-right p {
+	color: #fff;
+	padding-top: 7px;
+}
+.link-right:hover p {
+	background: #fff;
+	color:#FF305B;
+	height: 100%;
+	border: 1px solid black;
+}

@@ -1,0 +1,93 @@
+#footer-section {
+	background-color: #EDEDEF;
+	color: black;
+	height: 430px;
+}
+#footer-section h2 {
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-top: 100px;
+	margin-bottom: 19px;
+}
+#footer-section h1{
+	margin-top: 80px;
+}
+.about-windows {
+	margin-bottom: 5px;
+}
+.Contact-Info {
+	margin-bottom: 5px;
+}
+.Contact-Info i {
+	padding: 12px 12px 10px 12px;
+	float: left;
+}
+.fa.fa-map-marker {
+	padding: 11px 15px 11px 15px;
+}
+.Contact-Info span {
+	padding-left: 22px;
+}
+.Contact-map {
+	margin-top: 5px;
+}
+.Contact-map span {
+	padding-left: 22px;
+}
+.Instagram-Photos img {
+	width: 84px;
+	height: 77px;
+	padding-top: 3px;
+}
+.Popular-Post {
+	display: flex;
+	padding-bottom: 3px;
+}
+.Popular-img img {
+	width: 84px;
+	height: 75px;
+	float: left;
+}
+.Popular-bolog {
+	padding-left: 10px;
+}
+.Popular-bolog h3 {
+	font-size: 12px;
+}
+.Twitter-Info i {
+	color: #55acee;
+	height: 90px;
+	float: left;
+	width: 31px;
+	margin-top: 5px;
+}
+
+#footer {
+	background: black;
+	height: 50px;
+}
+.footer-item {
+	text-align: center;
+	width: 100%;
+}
+.footer-item p {
+	color: white;
+	margin-top: 14px;
+	font-size: 16px;
+}
+.footer-social-icon span {
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	text-align: center;
+	border: 1px solid black;
+	display: inline-block;
+	margin: 17px 4px 0px 0px;
+}
+.footer-social-icon i {
+	color: black;
+}
+.footer-social-icon span:hover {
+	background: #F44336;
+	border: none;
+}
